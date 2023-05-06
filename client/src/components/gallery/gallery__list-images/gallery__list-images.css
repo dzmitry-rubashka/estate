@@ -1,0 +1,19 @@
+.gallery__list-images {
+  display: flex;
+  gap: 2px;
+  width: 1140px;
+  padding: 0 2px 2px;
+}
+
+.gallery__item-image {
+  opacity: 0.5;
+  object-fit: cover;
+  transition: 0.3s;
+  width: 25%;
+  max-height: 153px;
+  cursor: pointer;
+}
+
+.active-image {
+  opacity: 1;
+}

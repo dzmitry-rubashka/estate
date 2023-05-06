@@ -1,0 +1,18 @@
+.property_list-grid {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px 30px;
+  width: 750px;
+}
+
+.property_list-list {
+  width: 750px;
+}
+
+.property_list-list > * {
+  margin-bottom: 40px;
+}
+
+.property_list-list > *:last-of-type {
+  margin-bottom: 0;
+}

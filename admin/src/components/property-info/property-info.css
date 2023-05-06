@@ -1,0 +1,42 @@
+.property-info {
+  position: relative;
+  display: flex;
+  width: 980px;
+  padding-bottom: 20px;
+}
+
+.property-info__description {
+  position: absolute;
+  display: inline;
+  margin-left: 10px;
+}
+
+.property-info__buttons-container {
+  display: flex;
+  position: absolute;
+  right: 15px;
+}
+
+.property-info__button {
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: inherit;
+}
+
+.property-info__modal {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+.property-info__messages {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--grey);
+  line-height: 10px;
+}

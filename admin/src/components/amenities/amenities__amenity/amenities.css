@@ -1,0 +1,8 @@
+.amenities__list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 1fr);
+  list-style-type: none;
+  padding: 11px 7px;
+  grid-column-gap: 30px;
+}

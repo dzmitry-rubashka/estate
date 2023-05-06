@@ -1,0 +1,12 @@
+.message-list__container {
+  margin: 16px;
+  width: 980px;
+}
+
+.message-list__container > * {
+  margin-bottom: 40px;
+}
+
+.message-list__container > *:last-of-type {
+  margin-bottom: 0;
+}

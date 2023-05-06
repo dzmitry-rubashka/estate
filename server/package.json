@@ -1,0 +1,28 @@
+{
+  "name": "estate-server",
+  "private": true,
+  "scripts": {
+    "start": "SET NODE_ENV=development&&nodemon src/",
+    "production": "node src/index.js",
+    "db:seed": "yarn sequelize db:seed:all",
+    "db:migrate": "yarn sequelize db:migrate",
+    "preproduction": "yarn db:migrate"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-session-json": "^0.0.8",
+    "nodemailer": "^6.9.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.29.0",
+    "sequelize-cli": "^6.6.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

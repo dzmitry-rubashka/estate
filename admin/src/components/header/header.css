@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+  display: flex;
+  height: 100px;
+  background: url("./header__images/header__images_background.png");
+  align-items: center;
+  gap: 30px;
+  padding-left: 120px;
+}
+
+.header__title {
+  font-size: 25px;
+  line-height: 28px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}

@@ -1,0 +1,16 @@
+.property-info__text {
+  margin-bottom: 10px;
+}
+
+.property-info__title {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--red);
+  line-height: 30px;
+}
+
+.property-info__location {
+  font-style: italic;
+  color: var(--dark-grey);
+  font-weight: 400;
+}

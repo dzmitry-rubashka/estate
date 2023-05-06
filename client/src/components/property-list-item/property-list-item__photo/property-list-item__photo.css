@@ -1,0 +1,18 @@
+.property-list-item__container-grid .property-list-item__photo {
+  transition: 0.1s;
+  object-fit: cover;
+  width: 360px;
+  height: 320px;
+}
+
+.property-list-item__container-list .property-list-item__photo {
+  transition: 0.1s;
+  object-fit: cover;
+  margin-right: 20px;
+  width: 265px;
+  height: 230px;
+}
+
+.property-list-item__photo:hover {
+  opacity: 0.5;
+}

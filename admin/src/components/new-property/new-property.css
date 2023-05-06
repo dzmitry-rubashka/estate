@@ -1,0 +1,12 @@
+.new-property__add-button {
+  width: 980px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  border-style: dashed;
+  border-width: 1px;
+  user-select: none;
+}
+
+.new-property__add-button:hover {
+  color: var(--red);
+}

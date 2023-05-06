@@ -1,0 +1,10 @@
+.property-list > * {
+  display: block;
+  margin-bottom: 40px;
+  width: 980px;
+  text-decoration: none;
+}
+
+.property-item {
+  cursor: pointer;
+}

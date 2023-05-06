@@ -1,0 +1,7 @@
+node_modules
+./server/public/index.html
+./server/public/admin/index.html
+./client/.eslintrc.json
+./client/.eslintingnore.json
+./admin/.eslintrc.json
+./admin/.eslintingnore.json

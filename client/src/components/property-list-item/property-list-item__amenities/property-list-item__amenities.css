@@ -1,0 +1,23 @@
+.property-list-item__amenities-container {
+  justify-content: center;
+  display: flex;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+.property-list-item__amenities {
+  display: flex;
+  border-left: 1px solid var(--input-border);
+  padding: 10px;
+}
+
+.property-list-item__amenities span {
+  margin-left: 4px;
+  font-size: 11px;
+  color: var(--dark-grey);
+}
+
+.property-list-item__amenities:first-child {
+  border-left: none;
+}

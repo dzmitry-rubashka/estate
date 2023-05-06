@@ -1,0 +1,4 @@
+node_modules
+src/setupProxy.js
+src/index.jsx
+src/pages/test.jsx

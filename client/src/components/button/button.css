@@ -1,0 +1,43 @@
+.button {
+  justify-content: center;
+  display: flex;
+  transition: 0.3s;
+  margin: 0 0 0 -1px;
+  border: 1px solid var(--grey);
+  min-width: 41px;
+  min-height: 37px;
+  padding: 4px 7px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Inter";
+  align-items: center;
+  color: var(--dark-grey);
+  border-radius: 2px;
+}
+
+.button:hover {
+  background: var(--light-grey);
+}
+
+.button.radius-left {
+  border-radius: 2px 0px 0px 2px;
+}
+
+.button.radius-right {
+  border-radius: 0px 2px 2px 0px;
+}
+
+.button.active {
+  background: var(--light-grey);
+}
+
+.button:disabled {
+  color: var(--grey);
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  background: #fff;
+}

@@ -1,0 +1,27 @@
+.checkbox-input {
+  appearance: none;
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 4px;
+  transform: translateY(1.3px);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.checkbox-input::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: var(--red);
+  border-radius: 4px;
+  transform: scale(0);
+  transition: 0.1s transform ease-in-out;
+}
+
+.checkbox-input:checked::before {
+  transform: scale(1);
+}

@@ -1,0 +1,5 @@
+.message__container {
+  display: flex;
+  gap: 20px;
+  width: 980px;
+}

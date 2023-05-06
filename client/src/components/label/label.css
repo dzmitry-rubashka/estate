@@ -1,0 +1,17 @@
+.label {
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--light-black);
+}
+
+.label.label__dropdown::after {
+  content: "\25BC";
+  color: var(--grey);
+  position: absolute;
+  bottom: 10px;
+  right: 9.5px;
+  border-left: 1px solid var(--light-grey);
+  padding-left: 8px;
+  pointer-events: none;
+}

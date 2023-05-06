@@ -1,0 +1,18 @@
+.floorplans__floorlist {
+  position: absolute;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.floorplans__floorlist__floor {
+  margin-right: 28px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--dark-grey);
+}
+
+.active_floor {
+  color: var(--light-black);
+}

@@ -1,0 +1,11 @@
+.amenities__amenity {
+  color: var(--dark-grey);
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.amenities__amenity_sign {
+  font-weight: 700;
+  text-align: center;
+  color: var(--red);
+}

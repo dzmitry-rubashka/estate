@@ -1,0 +1,26 @@
+.add-property-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+}
+
+.add-property-form > * {
+  width: 100%;
+}
+
+.add-property-form__section {
+  margin-inline: 0;
+  padding-inline: 0;
+  padding-block: 0;
+  min-inline-size: 0;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.add-property-form__button {
+  width: 30%;
+}

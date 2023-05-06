@@ -1,0 +1,36 @@
+.modal__exit-button {
+  margin: 0 0 10px auto;
+  border: none;
+  background: none;
+}
+
+.modal__exit-button:hover {
+  font-weight: 700;
+}
+
+.modal {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  cursor: default;
+}
+
+.modal.active {
+  height: 100%;
+  opacity: 1;
+}
+
+.modal__modal-wrapper {
+  padding: 10px;
+  width: 50%;
+  border-radius: 1%;
+  margin: 20px auto;
+  background-color: var(--light-grey);
+}

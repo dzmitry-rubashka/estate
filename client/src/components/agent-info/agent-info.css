@@ -1,0 +1,25 @@
+.agent-info__container {
+  display: flex;
+  border: 1px solid var(--vertical-rule);
+  width: 1140px;
+}
+
+.agent-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.agent-info__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px 10px;
+  font-family: "Inter", sans-serif;
+  color: var(--light-black);
+}
+
+.agent-info__photo {
+  height: 230px;
+  width: 240px;
+  object-fit: cover;
+  transform: translate(-1px, -1px);
+}

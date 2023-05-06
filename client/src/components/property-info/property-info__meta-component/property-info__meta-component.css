@@ -1,0 +1,28 @@
+.meta-component {
+  display: flex;
+  border-right: 1px solid var(--vertical-rule);
+  padding: 0 17px;
+  font-size: 15px;
+  align-items: center;
+}
+
+.meta-component span {
+  padding-left: 7px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.meta-component:first-child {
+  padding-left: 0;
+  text-transform: capitalize;
+}
+
+.meta-component:last-child {
+  margin-left: auto;
+  padding-right: 0;
+}
+
+.meta-component:nth-child(4),
+.meta-component:nth-child(5) {
+  border: none;
+}

@@ -1,0 +1,9 @@
+.wmde-markdown {
+  margin: 15px 15px 40px;
+  color: var(--light-black);
+  background-color: transparent;
+  font-family: "OpenSans", sans-serif;
+}
+.wmde-markdown.done {
+  color: var(--grey);
+}

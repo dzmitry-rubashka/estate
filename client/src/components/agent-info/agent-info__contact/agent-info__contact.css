@@ -1,0 +1,24 @@
+.agent-info__contact {
+  margin-top: 15px;
+}
+
+.agent-info__contact-element {
+  display: flex;
+  align-items: center;
+}
+
+.agent-info__contact-element:first-child {
+  margin-bottom: 8px;
+}
+
+.agent-info__contact-link {
+  margin-left: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+
+.agent-info__contact-link:hover {
+  text-decoration: underline;
+}

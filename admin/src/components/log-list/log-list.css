@@ -1,0 +1,19 @@
+.log-list__section {
+  width: 60%;
+  margin-bottom: 20px;
+}
+.log-list {
+  all: unset;
+}
+.log-list__button {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 32px;
+  border-style: dashed;
+  border-width: 1px;
+  user-select: none;
+}
+
+.log-list__button:hover {
+  color: var(--red);
+}

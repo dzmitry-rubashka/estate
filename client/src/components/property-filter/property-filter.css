@@ -1,0 +1,67 @@
+.property-filter__container {
+  width: 440px;
+  min-width: 350px;
+  padding: 50px 20px 0 20px;
+  background: var(--light-grey);
+}
+
+.property-filter__grid-container {
+  margin-inline: 0;
+  padding-inline: 0;
+  padding-block: 0;
+  min-inline-size: 0;
+  border: none;
+  margin: 53px 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "property-filter__propertyTitle property-filter__propertyTitle"
+    "property-filter__propertyType property-filter__propertyType"
+    "property-filter__offerType property-filter__offerType"
+    "property-filter__minPrice property-filter__maxPrice"
+    "property-filter__bathrooms property-filter__bedrooms"
+    "property-filter__minArea property-filter__maxArea";
+}
+
+.property-filter__propertyTitle {
+  grid-area: property-filter__propertyTitle;
+}
+
+.property-filter__propertyType {
+  grid-area: property-filter__propertyType;
+}
+
+.property-filter__offerType {
+  grid-area: property-filter__offerType;
+}
+
+.property-filter__minPrice {
+  grid-area: property-filter__minPrice;
+}
+
+.property-filter__maxPrice {
+  grid-area: property-filter__maxPrice;
+}
+
+.property-filter__bathrooms {
+  grid-area: property-filter__bathrooms;
+}
+
+.property-filter__bedrooms {
+  grid-area: property-filter__bedrooms;
+}
+
+.property-filter__minArea {
+  grid-area: property-filter__minArea;
+}
+
+.property-filter__maxArea {
+  grid-area: property-filter__maxArea;
+}
+
+.property-filter__button {
+  margin: auto auto 10px;
+}

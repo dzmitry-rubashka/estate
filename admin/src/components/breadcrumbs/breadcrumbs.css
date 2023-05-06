@@ -1,0 +1,13 @@
+.breadcrumbs {
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.breadcrumbs__link {
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+
+.breadcrumbs__link:hover {
+  color: black;
+}

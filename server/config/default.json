@@ -1,0 +1,19 @@
+{
+  "port": 3500,
+  "smtp": {
+    "host": "smtp.sendgrid.net",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "apikey",
+      "pass": "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"
+    }
+  },
+  "passport": {
+    "clientId": "1096649793634-7vd4vugk6dqamgqo0shkq051gd0aa4k4.apps.googleusercontent.com",
+    "clientSecret": "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"
+  },
+  "session": {
+    "sessionKey": "super_secret_session_key_shhhh_dont_tell_anyone_about_it"
+  }
+}

@@ -1,0 +1,18 @@
+.property-list-item__container-grid {
+  position: relative;
+  width: 360px;
+  font-family: "OpenSans", sans-serif;
+}
+
+.property-list-item__container-list {
+  position: relative;
+  display: flex;
+  font-family: "OpenSans", sans-serif;
+}
+
+.property-list-item__text-content-list {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+}

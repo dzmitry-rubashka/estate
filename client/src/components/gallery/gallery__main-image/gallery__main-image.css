@@ -1,0 +1,12 @@
+.gallery__main-image_container {
+  position: relative;
+  box-sizing: border-box;
+  height: 615px;
+  padding: 2px;
+}
+
+.gallery__main-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

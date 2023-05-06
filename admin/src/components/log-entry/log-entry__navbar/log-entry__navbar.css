@@ -1,0 +1,15 @@
+.log-entry__buttons {
+  margin-left: auto;
+}
+.log-entry__button {
+  display: inline-block;
+  margin: 0 8px;
+  border: none;
+  min-height: 36px;
+  min-width: 36px;
+  background: none;
+}
+
+.not-visible {
+  display: none;
+}

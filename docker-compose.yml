@@ -1,0 +1,27 @@
+version: "3.3"
+services:
+  app:
+    build: .
+    container_name: estate
+    depends_on:
+      - db
+    ports:
+      - 8000:3500
+    volumes:
+      - ./server/config/example-config.json:/app/server/config/production.json
+
+  db:
+    image: postgres:15.2-alpine
+    container_name: db
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=test123
+      - POSTGRES_DB=database_estate
+    ports:
+      - 3333:5432
+    volumes:
+      - estate_data:/var/lib/postgressql/database_estate
+
+volumes:
+  estate_data: {}

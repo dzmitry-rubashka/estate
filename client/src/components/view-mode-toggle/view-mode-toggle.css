@@ -1,0 +1,24 @@
+.view-mode-toggle__container {
+  align-self: flex-end;
+  display: flex;
+  width: fit-content;
+}
+
+.view-mode-toggle__container .view-mode-toggle__label {
+  margin-right: 10px;
+  line-height: 37px;
+  font-family: "OpenSans", sans-serif;
+  color: var(--dark-grey);
+}
+
+.view-mode-toggle__container .button {
+  width: 44px;
+}
+
+.view-mode-toggle__buttons-container {
+  display: flex;
+}
+
+.view-mode-toggle__button:not(.active) {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

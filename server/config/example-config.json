@@ -1,0 +1,5 @@
+{
+  "databaseUrl": "postgres://postgres:test123@db:5432/database_estate",
+  "backendUrl": "http://localhost:8000",
+  "frontendUrl": "http://localhost:8000/admin"
+}

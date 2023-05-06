@@ -1,0 +1,31 @@
+.dropdown-control__select {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  height: 41px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  appearance: none;
+  padding: 11px 0 10px 15px;
+  color: var(--dark-grey);
+}
+
+.dropdown-control__select_placeholder {
+  color: var(--grey);
+}
+
+.dropdown-control__select,
+.dropdown-control-item {
+  text-transform: capitalize;
+}
+
+.dropdown-control__select:focus {
+  outline: none;
+  border-color: var(--grey);
+}
+
+.dropdown-control-item {
+  color: var(--dark-grey);
+}

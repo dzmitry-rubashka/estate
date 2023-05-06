@@ -1,0 +1,31 @@
+.property-info {
+  width: 1140px;
+  font-family: "Inter";
+  color: var(--light-black);
+}
+
+.property-info__title {
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: normal;
+  color: var(--red);
+}
+
+.property-info__location {
+  margin-top: 4px;
+  line-height: 19px;
+  font-style: italic;
+}
+
+.property-info__meta-content {
+  display: flex;
+  margin: 45px 0;
+  height: 20px;
+  color: var(--dark-grey);
+}
+
+.property-info__description {
+  margin-top: 45px;
+  font-size: 20px;
+  line-height: 30px;
+}

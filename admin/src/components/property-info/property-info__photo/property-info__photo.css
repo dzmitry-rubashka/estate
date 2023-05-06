@@ -1,0 +1,5 @@
+.property-info__photo {
+  width: 230px;
+  height: 200px;
+  object-fit: cover;
+}

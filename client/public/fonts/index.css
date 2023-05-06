@@ -1,0 +1,21 @@
+@font-face {
+  src: url("./OpenSans-Regular.ttf") format("truetype");
+  font-family: "OpenSans";
+}
+
+@font-face {
+  src: url("./OpenSans-Italic.ttf") format("truetype");
+  font-family: "OpenSans";
+  font-style: italic;
+}
+
+@font-face {
+  src: url("./OpenSans-Bold.ttf") format("truetype");
+  font-family: "OpenSans";
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("./Inter-Regular.ttf") format("truetype");
+  font-family: "Inter";
+}

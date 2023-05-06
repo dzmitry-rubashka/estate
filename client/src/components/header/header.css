@@ -1,0 +1,27 @@
+.header {
+  justify-content: center;
+  display: flex;
+  height: 220px;
+  background: url("./header__images/header__images_background.svg");
+  align-items: center;
+}
+
+.header__wrapper {
+  display: flex;
+  gap: 30px;
+  width: 1140px;
+  align-items: flex-end;
+}
+
+.header__logo {
+  width: 190px;
+  height: 149px;
+}
+
+.header__title {
+  font-size: 32px;
+  line-height: 44px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}

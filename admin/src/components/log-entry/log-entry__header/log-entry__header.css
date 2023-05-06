@@ -1,0 +1,18 @@
+.log-entry__header {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background-color: var(--light-grey);
+  border-bottom: 1px solid var(--grey);
+}
+
+.log-entry__header.done {
+  color: var(--grey);
+}
+
+.log-entry__title {
+  min-width: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 10px;
+}

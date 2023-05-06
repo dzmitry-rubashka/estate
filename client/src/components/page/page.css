@@ -1,0 +1,19 @@
+.properties {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  min-height: calc(100vh - 220px);
+}
+
+.properties__container {
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+  margin: 50px 0 150px 0;
+  align-items: center;
+}
+
+.property {
+  margin: 50px auto 150px auto;
+  width: 1140px;
+}

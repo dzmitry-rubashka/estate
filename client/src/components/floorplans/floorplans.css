@@ -1,0 +1,10 @@
+.floorplans__container {
+  position: relative;
+  font-family: "Inter";
+}
+
+.floorplans__floor_picture {
+  object-fit: contain;
+  width: 1140px;
+  height: 614px;
+}

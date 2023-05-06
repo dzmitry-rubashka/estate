@@ -1,0 +1,18 @@
+.property-info__meta-components {
+  display: flex;
+  padding: 0;
+  width: 717px;
+  justify-content: space-between;
+  list-style: none;
+  color: var(--grey);
+}
+
+.property-info__meta-components > hr {
+  border: none;
+  border-right: 1px solid var(--vertical-rule);
+}
+
+.property-info__meta-components .property-info__meta-component-id:last-child {
+  flex-basis: 350px;
+  text-align: right;
+}
